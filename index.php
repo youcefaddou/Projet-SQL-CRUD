@@ -12,7 +12,9 @@
 </head>
 
 <body>
+
     <div class="main-container">
+        <h1>Formulaire</h1>
         <form action="" method="POST">
             <div class="form-row">
                 <input name="firstName" placeholder="Prénom">
@@ -51,7 +53,7 @@
                                     <button name="editView" value="<?= $entry['id'] ?>">Modifier</button>
                                 <?php else : ?>
                                     <button name="update" value="<?= $entry['id'] ?>">Confirmer</button>
-                                <?php endif; ?> 
+                                <?php endif; ?>
                             </td>
                         </tr>
                     <?php }
